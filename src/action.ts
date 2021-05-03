@@ -1,6 +1,6 @@
 import * as core from "@actions/core";
 import * as github from "@actions/github";
-import { runMigration } from "contentful-migration";
+import { runMigration } from "contentful-migration/built/bin/cli";
 import { readdir } from "fs";
 import path from "path";
 import { promisify } from "util";
@@ -35,7 +35,6 @@ export const readdirAsync = promisify(readdir);
  * @param space
  */
 export const runAction = async (space): Promise<void> => {
-  Logger.log("Forked action running...")
   const branchNames = getBranchNames();
   const { environmentId, environment, environmentType } = await getEnvironment(
     space,
