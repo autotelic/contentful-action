@@ -23,6 +23,7 @@
     "contentful-management": "^6.2.0-beta0",
     "contentful-migration": "^4.1.7",
     "listr": "^0.14.3",
+    "rxjs-compat": "^6.6.7",
     "to-semver": "^3.0.0",
     "tslib": "^2.1.0"
   },
