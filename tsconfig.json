@@ -1,17 +1,28 @@
 {
 	"compilerOptions": {
-		"typeRoots": [
-			"./typings",
-			"./node_modules/@types"
-		  ],
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"alwaysStrict": true,
+		"declaration": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"importHelpers": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"noEmit": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": false,
 		"lib": [
 			"es2015",
 			"es2016",
 			"es2017",
 			"esnext"
 		  ],
+		"target": "es2017",
 		"module": "commonjs",
 		"moduleResolution": "node",
-		"target": "es2017",
+
 	}
 }
