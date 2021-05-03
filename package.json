@@ -21,7 +21,7 @@
     "@actions/github": "^3.0.0",
     "chalk": "^4.1.0",
     "contentful-management": "^6.2.0-beta0",
-    "contentful-migration": "^1.0.15",
+    "contentful-migration": "^4.1.7",
     "to-semver": "^3.0.0",
     "tslib": "^2.1.0"
   },
