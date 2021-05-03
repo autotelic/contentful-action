@@ -15,5 +15,6 @@ import { Logger } from "./utils";
   } catch (error) {
     Logger.error(error);
     core.setFailed(error.message);
+    return new Observable(observer => observer.next(false))
   }
 })();
