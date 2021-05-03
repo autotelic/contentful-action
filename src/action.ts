@@ -35,6 +35,7 @@ export const readdirAsync = promisify(readdir);
  * @param space
  */
 export const runAction = async (space): Promise<void> => {
+  Logger.log("Forked action running...")
   const branchNames = getBranchNames();
   const { environmentId, environment, environmentType } = await getEnvironment(
     space,
