@@ -1,3 +1,4 @@
+import { Observable } from 'rxjs';
 import * as core from "@actions/core";
 import { createClient } from "contentful-management";
 import { runAction } from "./action";
