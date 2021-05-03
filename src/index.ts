@@ -1,4 +1,3 @@
-import { Observable } from 'rxjs';
 import * as core from "@actions/core";
 import { createClient } from "contentful-management";
 import { runAction } from "./action";
@@ -15,6 +14,5 @@ import { Logger } from "./utils";
   } catch (error) {
     Logger.error(error);
     core.setFailed(error.message);
-    return new Observable(observer => observer.next(false))
   }
 })();
