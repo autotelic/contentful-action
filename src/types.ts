@@ -1,4 +1,5 @@
 import { Environment } from "contentful-management/dist/typings/entities/environment";
+import { Observable } from 'rxjs';
 
 export enum EventNames {
   pullRequest = "pull_request",
