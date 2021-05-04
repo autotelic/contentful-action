@@ -30,7 +30,7 @@ runs:
   image: "docker://node:14.16.1-alpine"
   entrypoint: "node"
   args:
-    - $GITHUB_ACTION_PATH/dist/index.js
+    - "/home/runner/work/_actions/autotelic/contentful-action/chore/update-contentful-migration/dist/index.js"
 
 branding:
   icon: "upload-cloud"
