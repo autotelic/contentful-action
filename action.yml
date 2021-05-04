@@ -26,7 +26,8 @@ outputs:
   environment_name:
     description: "Contentful environment name"
 runs:
-  using: "node14"
+  using: "docker"
+  image: 'node:14.16.1-alpine'
   main: "dist/index.js"
 branding:
   icon: "upload-cloud"
