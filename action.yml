@@ -28,7 +28,7 @@ outputs:
 runs:
   using: "docker"
   image: "docker://node:14.16.1-alpine"
-  entrypoint: "dist/index.js"
+  entrypoint: ["node", "dist/index.js"]
 branding:
   icon: "upload-cloud"
   color: "red"
