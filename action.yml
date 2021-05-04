@@ -26,12 +26,8 @@ outputs:
   environment_name:
     description: "Contentful environment name"
 runs:
-  using: "docker"
-  image: "docker://node:14.16.1-alpine"
-  entrypoint: "node"
-  args:
-    - "/home/runner/work/_actions/autotelic/contentful-action/chore/update-contentful-migration/dist/index.js"
-
+  using: "node"
+  main: "dist/index.js"
 branding:
   icon: "upload-cloud"
   color: "red"
