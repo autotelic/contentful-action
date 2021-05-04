@@ -30,7 +30,7 @@ runs:
   image: "docker://node:14.16.1-alpine"
   entrypoint: "node"
   args:
-    - "${{ github.action_path }}/dist/index.js"
+    - ${{ github.action_path }}/dist/index.js
 
 branding:
   icon: "upload-cloud"
