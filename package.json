@@ -22,7 +22,6 @@
     "chalk": "^4.1.0",
     "contentful-management": "^6.2.0-beta0",
     "contentful-migration": "^4.1.7",
-    "rxjs": "^7.0.0",
     "to-semver": "^3.0.0",
     "tslib": "^2.1.0"
   },
